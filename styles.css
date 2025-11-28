@@ -3,7 +3,7 @@
 
 :root {
   --clr-bg: #ffffff;
-  --clr-card-bg: #000000;
+  --clr-card-bg: #151219;
   --clr-info-bg: #e4dbff;
   --clr-primary: #9c81ed;
   --clr-accent: #b59aff;
@@ -47,7 +47,7 @@ body {
 .app-title {
   font-family: var(--font-main);
   color: var(--clr-text);
-  font-size: clamp(32pt, 8vw, 55pt);
+  font-size: clamp(32pt, 10vw, 60pt);
   text-align: center;
 }
 
@@ -66,13 +66,30 @@ body {
   gap: 12px;
 }
 
-.ico-card {
+.icon-card {
   background-color: #6e25b8;
   width: 126px;
   min-width: 126px;
   height: 100%;
   border-radius: 20px;
   margin-left: 0px;
+}
+
+.txt-content p{
+  color: #151219;
+}
+
+.slid-down{
+  background-color: white;
+  padding:30px 0px;
+  }
+
+.slid-down_l{
+background-color: var(--clr-primary);
+width: 30px;
+height: 30px;
+display: inline-block;
+inline-size: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -88,7 +105,7 @@ body {
     max-height: 120px;
   }
 
-  .ico-card {
+  .icon-card {
     min-width: 96px;
   }
 }
